@@ -9,6 +9,6 @@ alias l="ls -1"
 alias dd="cd ~/Desktop"
 alias g="gedit"
 alias t="tmux"
-alias alexajak="ssh alexajak@login.stud.ntnu.no"
+
 
 
