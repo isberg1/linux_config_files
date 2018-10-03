@@ -14,6 +14,7 @@ alias validate="puppet parser validate"
 
 alias basic_tmux="echo '
 tmux commands
+In tmux, hit the prefix ctrl+b (my modified prefix is ctrl+a) and then:
 
 tmux new -s mysession   # start new session
 
@@ -25,13 +26,14 @@ tmux ls   #Show all sessions
 
 tmux a -t mysession  # Attach to a session with the name mysession
 
-Ctrl + b %  # Split pane vertically
-
-Ctrl + b <- / ->  #Switch to pane to the direction
-
-Ctrl + b x  #Close current pane
-
-Ctrl + b :  #Enter command mode
+Windows (tabs)(CRT +b) +:
+c  create window
+w  list windows
+n  next window
+p  previous window
+f  find window
+,  name window
+&  kill window
 '
 "
 alias brc="source ~/.bashrc"
