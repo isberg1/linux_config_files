@@ -6,7 +6,7 @@ read user
 echo "write git global user mail"
 read mail
 
-echo "write git global core editor(vim/atom/nano)"
+echo "write git global core editor(vim/nano)"
 read editor
 
 git config --global user.name $user
